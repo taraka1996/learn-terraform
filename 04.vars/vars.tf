@@ -1,16 +1,15 @@
-variable "d1" {
-  default = [
-    {
-      course_name  = "aws"
-      trainer_name = "raju"
-    },
-    {
-      course_name  = "devops"
-      trainer_name = "ravi"
-    }
-  ]
+variable "sample" {
+  default = "hello world"
 }
 
-output "course_names" {
-  value = var.d1.*.course_name
+output "sample" {
+    value = var.sample
 }
+
+variable "sample1" {}
+
+output "sample1" {
+    value = var.sample1
+}
+
+
