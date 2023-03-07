@@ -9,7 +9,7 @@ resource "aws_instance" "frontend" {
 }
 
 resource "aws_route53_record" "frontend" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "frontend.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -26,7 +26,7 @@ resource "aws_instance" "cart" {
 }
 
 resource "aws_route53_record" "cart" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "cart.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -43,7 +43,7 @@ resource "aws_instance" "catalogue" {
 }
 
 resource "aws_route53_record" "catalogue" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "catalogue.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -60,7 +60,7 @@ resource "aws_instance" "user" {
 }
 
 resource "aws_route53_record" "user" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "user.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -77,7 +77,7 @@ resource "aws_instance" "shipping" {
 }
 
 resource "aws_route53_record" "shipping" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "shipping.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -94,7 +94,7 @@ resource "aws_instance" "payment" {
 }
 
 resource "aws_route53_record" "payment" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "payment.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -111,7 +111,7 @@ resource "aws_instance" "mongodb" {
 }
 
 resource "aws_route53_record" "mongodb" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "mongodb.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -128,7 +128,7 @@ resource "aws_instance" "mysql" {
 }
 
 resource "aws_route53_record" "mysql" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "mysql.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -136,7 +136,7 @@ resource "aws_route53_record" "mysql" {
 }
 
 resource "aws_route53_record" "redis" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "redis.devops-b-71.online"
   type    = "A"
   ttl     = 30
@@ -163,7 +163,7 @@ resource "aws_instance" "rabbitmq" {
 }
 
 resource "aws_route53_record" "rabbitmq" {
-  zone_id = "Z00487239GRIM7AE3Z3V"
+  zone_id = "Z0979159L4V27YKYGYYI"
   name    = "rabbitmq.devops-b-71.online"
   type    = "A"
   ttl     = 30
