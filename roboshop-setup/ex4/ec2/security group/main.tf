@@ -24,11 +24,3 @@ resource "aws_security_group" "allow_tls" {
     Name = "allow_tls"
   }
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
